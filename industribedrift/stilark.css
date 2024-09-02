@@ -1,0 +1,65 @@
+/* Definerer globale variabler som kan brukes senere */
+:root {
+    /* Fargene er hentet fra den tidligere kommunen Bø i Telemark sitt kommunevåpen */
+    --rød: #c0041d;
+    --gul: #f9e70c;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+header nav {
+    background-color: var(--gul);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav > a{
+    font-size: 22px;
+}
+
+header a:hover{
+    background-color: var(--rød);
+    color: #fff;
+}
+
+/* Tekst */
+h1 {
+    margin: 20px;
+}
+
+/* Hoveddel */
+main {
+    width: 95%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+main section {
+    text-align: center;
+}
