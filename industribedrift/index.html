@@ -16,37 +16,77 @@
             <a href="#">Bø industribedrift</a>
             <ul>
                 <li>
-                    <a href="#">Salg</a>
+                    <a href="#salg">Salg</a>
                 </li>
                 <li>
-                    <a href="#">Bring</a>
+                    <a href="#hente">Hente</a>
                 </li>
                 <li>
-                    <a href="#">Utleie</a>
+                    <a href="#utleie">Utleie</a>
                 </li>
             </ul>
         </nav>
+
+        <h1>Bø Industribedrift</h1>
+        
     </header>
 
     <!-- Hovedinnhold -->
     <main>
         <!-- Salg -->
-        <section>
+        <section id="salg">
             <h1>Videresalg av kontor-rekvista og kaffe</h1>
-            <p>Vi har løpende lager! Leverer raskt og problemfritt <span>(med et lite påslag)</span> til bedrifter i området.</p>
+            <p>Vi har løpende lager!</p>
+            <p>
+                Leverer raskt og problemfritt <span class="small">(med et lite påslag)</span> til bedrifter i området.
+            </p>
+
+            <!-- Bildet er hentet fra Pixabay -->
+            <img src="./bilder/coffee_640.jpg" alt="Kaffe og kontor-rekvista">
         </section>
 
-        <!-- Bring -->
-        <section>
+        <!-- Hente -->
+        <section id="hente">
             <h1>Henting, installasjon og oppsett</h1>
+            <p>Prosjektorer, enkle overvåkningssystem, automatiske døråpnere med mer.</p>
             <p>Trenger kun erfaren montør uten spesialistutdanning!</p>
+
+            <!-- Bildet er hentet fra Pixabay -->
+            <img src="./bilder/projector_640.jpg" alt="Prosjektor">
+        </section>
+
+        <!-- Utleie -->
+        <section id="utleie">
+            <h1>Utleie av mindre maskiner</h1>
+            <p>Gressklippere, snøfresere, stubbefjernere, med mer.</p>
+            <p>Alt du trenger av redskap for vedlikehold av eiendom.</p>
+            <p>Ikke vær lei deg - Lei av oss!</p>
+
+            <img src="./bilder/lawn-mower_640.jpg" alt="Gressklipper">
         </section>
     </main>
 
     <!-- Bunntekst -->
-     <footer>
-
-     </footer>
+    <!-- Inspirert av designet til Akershus Fylkeskommune -->
+     <!-- https://afk.no/nadderud-vgs/ -->
+    <footer>
+        <div>
+            <h2>Ring oss</h2>
+            <p>
+                <a href="tel: 12345678">12 34 56 78</a>
+            </p>
+        </div>
+        <div>
+            <h2>Skriv til oss</h2>
+            <p><a href="mailto: boe.industribedrift@example.com">boe.industribedrift@example.com</a>
+            </p>
+        </div>
+        <div>
+            <h2>Besøk oss</h2>
+            <p>Gullbringvegen 36<br>
+                3800 Bø</p>
+        </div>
+    </footer>
 </body>
 
 </html>

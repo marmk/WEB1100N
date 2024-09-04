@@ -1,20 +1,58 @@
 /* Definerer globale variabler som kan brukes senere */
 :root {
     /* Fargene er hentet fra den tidligere kommunen Bø i Telemark sitt kommunevåpen */
-    --rød: #c0041d;
-    --gul: #f9e70c;
+    --red: #c0041d;
+    --yellow: #f9e70c;
+    --white: #fff;
+    --black: #000;
 }
 
+/* Nullstiller marger og padding til alle elementer */
 * {
+    /* Setter font */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    /* Gjør at scrollingen blir "smooth" når man trykker på lenkene i navbaren */
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Topptekst */
+header {
+    margin-bottom: 20px;
+    min-height: 100vh;
+
+    /* Bilder er hentet fra Pixabay */
+    /* Legger på et svakt gul-sort overlay over bildet */
+    background-image: linear-gradient(rgba(50,50,0,0.6), rgba(50,50,0,0.6)), url('./bilder/snow-blower_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 60px;
+    background-color: var(--white);
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 200px auto;
+}
+
 /* Navbar */
 header nav {
-    background-color: var(--gul);
+    background-color: var(--yellow);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,8 +69,7 @@ header nav ul {
 header a{
     padding: 10px;
     text-decoration: none;
-    color: #000;
-    font-weight: bold;
+    color: var(--black);
     border-radius: 10px;
 }
 
@@ -41,17 +78,27 @@ header nav ul {
 }
 
 header nav > a{
-    font-size: 22px;
+    font-weight: bold;
 }
 
 header a:hover{
-    background-color: var(--rød);
-    color: #fff;
+    background-color: var(--red);
+    color: var(--white);
 }
 
 /* Tekst */
 h1 {
-    margin: 20px;
+    font-size: 28px;
+    margin: 10px;
+}
+
+p {
+    margin: 8px;
+}
+
+/* Utility-klasse for størrelse */
+.small {
+    font-size: 12px;
 }
 
 /* Hoveddel */
@@ -62,4 +109,45 @@ main {
 }
 main section {
     text-align: center;
+    margin-bottom: 70px;
+}
+
+
+/* Bilder */
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Bunntekst */
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--yellow);
+    margin-top: auto;
+}
+
+footer a {
+    color: var(--black);
+}
+
+footer div {
+    margin: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    text-align: center;
+}
+
+/* Endrer CSS på mobilskjerm */
+@media (max-width: 450px){
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
