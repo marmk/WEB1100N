@@ -32,7 +32,6 @@ body {
 header {
     margin-bottom: 20px;
     min-height: 100vh;
-
     /* Bilder er hentet fra Pixabay */
     /* Legger på et svakt gul-sort overlay over bildet */
     background-image: linear-gradient(rgba(50,50,0,0.6), rgba(50,50,0,0.6)), url('./bilder/snow-blower_1920.jpg');
@@ -146,6 +145,9 @@ footer h2 {
 
 /* Endrer CSS på mobilskjerm */
 @media (max-width: 450px){
+    header h1 {
+        font-size: 40px;
+    }
     footer {
         flex-direction: column;
         text-align: center;
