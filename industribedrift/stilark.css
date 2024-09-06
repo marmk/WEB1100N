@@ -1,6 +1,6 @@
 /* Definerer globale variabler som kan brukes senere */
 :root {
-    /* Fargene er hentet fra den tidligere kommunen Bø i Telemark sitt kommunevåpen */
+    /* Fargene for rød og hul er hentet fra den tidligere kommunen Bø i Telemark sitt kommunevåpen */
     --red: #c0041d;
     --yellow: #f9e70c;
     --white: #fff;
@@ -40,13 +40,14 @@ header {
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 50px;
     background-color: var(--white);
-    width: fit-content;
     border-radius: 20px;
     padding: 10px 20px;
     text-align: center;
     margin: 200px auto;
+    width: 95%;
+    max-width: fit-content;
 }
 
 /* Navbar */
@@ -85,8 +86,13 @@ header a:hover{
     color: var(--white);
 }
 
+/* Lar overskriftene ha en serif-font */
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* Tekst */
-h1 {
+h2 {
     font-size: 28px;
     margin: 10px;
 }
@@ -95,7 +101,7 @@ p {
     margin: 8px;
 }
 
-/* Utility-klasse for størrelse */
+/* Utility-klasse for mindre størrelse */
 .small {
     font-size: 12px;
 }
@@ -136,17 +142,17 @@ footer div {
     margin: 20px;
 }
 
-footer h2 {
+footer h3 {
     margin-bottom: 10px;
     border-width: 0 0 2px 0;
     border-style: solid;
     text-align: center;
 }
 
-/* Endrer CSS på mobilskjerm */
+/* Endrer CSS på mindre skjerm */
 @media (max-width: 450px){
     header h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
     footer {
         flex-direction: column;
