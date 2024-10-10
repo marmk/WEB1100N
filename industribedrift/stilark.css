@@ -50,6 +50,7 @@ header h1 {
     max-width: fit-content;
 }
 
+
 /* Navbar */
 header nav {
     background-color: var(--yellow);
