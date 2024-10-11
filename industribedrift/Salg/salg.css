@@ -1,14 +1,3 @@
-
-header {
-    /* Kopiert fra indexdokumenter */
-    margin-bottom: 20px;
-    min-height: 100vh;
-    /* Bilder er hentet fra Pexels */
-    background-image: linear-gradient(rgba(50,50,0,0.6), rgba(50,50,0,0.6)), url('./bilder/pexels-pixabay-265072.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
 body {
     background-color: rgb(255, 255, 255);
   }
