@@ -45,8 +45,20 @@ header h1 {
     border-radius: 20px;
     padding: 10px 20px;
     text-align: center;
-    margin: 200px auto;
+    margin: auto;
+    margin-top: 200px;
     width: 95%;
+    max-width: fit-content;
+}
+
+header p {
+    font-size: 20px;
+    background-color: var(--white);
+    padding: 10px 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 600px;
     max-width: fit-content;
 }
 
@@ -69,6 +81,7 @@ header nav ul {
 
 header a{
     padding: 10px;
+    margin: 0px 5px;
     text-decoration: none;
     color: var(--black);
     border-radius: 10px;
@@ -125,7 +138,6 @@ img {
     border-radius: 10px;
 }
 
-
 /* Bunntekst */
 footer {
     display: flex;
@@ -151,6 +163,22 @@ footer h3 {
 }
 
 /* Endrer CSS på mindre skjerm */
+@media (max-width: 650px){
+    header nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    } 
+
+    header nav ul li {
+        display: flex;
+        text-align: center;
+    }
+}
+
 @media (max-width: 450px){
     header h1 {
         font-size: 32px;
