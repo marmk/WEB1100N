@@ -1,3 +1,47 @@
-h1{
-    color: red;
+
+header {
+    /* Kopiert fra indexdokumenter */
+    margin-bottom: 20px;
+    min-height: 100vh;
+    /* Bilder er hentet fra Pexels */
+    background-image: linear-gradient(rgba(50,50,0,0.6), rgba(50,50,0,0.6)), url('./bilder/pexels-cup-of-couple-7657837.jpg');
+    background-position: center;
+    background-size: cover;
 }
+
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2 { 
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p { 
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(68, 65, 65);
+    border-radius: 5px;
+  }
