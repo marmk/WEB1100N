@@ -1,16 +1,4 @@
-HENTING, INSTALLASJON OG OPPSETT (til hjemmeside)
-
-Det skal være enkelt å drive din forretning. Vi tilbyr flere tjenester innen teknologisk utstyr som henting, installasjon og oppsett av mer spesialisert utstyrt som prosjektorer, enkle overvåkningssystem, automatiske døråpnere og annet utstyr. Alle våre tjenester gjennomføres av   erfaren montør (uten spesialistutdanning).
-
-På denne siden kan du lese mer om:
-- Installasjon og oppsett av prosjektorer
-- Installasjon og oppsett av overvåkningssystem
-- Installasjon og oppsett av automatiske døråpnere
-- Supportavtale videre på veien
-
-
-
-***
+<!-- Kode for tjenesten: henting, installasjon og oppsett --> 
 
 <!DOCTYPE html>
 <html lang="no">
