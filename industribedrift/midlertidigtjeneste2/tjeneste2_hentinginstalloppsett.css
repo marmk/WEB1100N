@@ -1,0 +1,89 @@
+/* Topptekst og navigasjonsbar*/
+.header {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 236, 60);
+  padding: 10px 0;
+}
+
+.nav {
+  background-color: rgb(255, 236, 60);
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(214, 53, 53);
+  border-radius: 5px;
+}
+ 
+/* Hovedinnhold */
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 { 
+  color:rgb(0, 0, 0);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+  color:rgb(0, 0, 0);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Bunntekst */
+.footer {
+  background-color: rgb(255, 236, 60);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+} 
+
+/* Bilder */
+img {
+  min-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
