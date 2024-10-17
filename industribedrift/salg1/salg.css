@@ -66,6 +66,8 @@ p {
 }
 
 .main {
+  margin: auto;
+  width: 50%;
   padding: 20px;
   display: flex;
   flex-direction: column;
