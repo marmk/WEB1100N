@@ -83,7 +83,7 @@ p {
 
 /* Bilder */
 img {
-  min-width: 300px;
+  min-width: 250px;
   height: auto;
   border-radius: 10px;
 }
